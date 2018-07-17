@@ -1,4 +1,4 @@
-# Drive NeoPixels on the NeoPixels Block on Crickit for 
+# Drive NeoPixels on the NeoPixels Block on Crickit for
 #  Circuit Playground Express
 import time
 import neopixel
@@ -8,7 +8,7 @@ num_pixels = 30  # Number of pixels driven from Crickit NeoPixel terminal
 
 # The following line sets up a NeoPixel strip on Crickit CPX pin A1
 pixels = neopixel.NeoPixel(board.A1, num_pixels, brightness=0.3,
-                            auto_write=False)
+                           auto_write=False)
 
 def wheel(pos):
     # Input a value 0 to 255 to get a color value.
